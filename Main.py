@@ -22,7 +22,15 @@ async def on_message(message):
 		    await message.channel.send(" :book: Python is an interpreted, high-level and general-purpose programming language. Python's design philosophy emphasizes code readability with its notable use of significant indentation.")
 
     elif message.content == "/what is if else statement":
-		    await message.channel.send(" :book: ")    
-#Use Bot Token
-bot.run("Use_your_own")
+		    await message.channel.send(" :book:`Python if...else Statement`The if..else statement evaluates test expression and will execute the body of if only when the test condition is True . If the condition is False , the body of else is executed. Indentation is used to separate the blocks.for example see this website https://www.w3schools.com/python/python_conditions.asp ")
+    elif message.content == "/contribute":
+		    await message.channel.send(":sunglasses: https://replit.com/join/jnansaqa-pianolearnersro")
 
+    elif message.content == "/hello":
+		    await message.channel.send(" :v: Hey There I Am Your Python Personal Assistant") 
+    
+    elif message.content == "/hi":
+		    await message.channel.send(" :v: Hey There I Am Your Python Personal Assistant") 
+
+#Use Bot Token
+bot.run("ODI2MDU0MzkwMjYzNTc4NjM0.YGG5GQ.SSaEAiJ4v5MHHTMspwHgSqgBdQE")
