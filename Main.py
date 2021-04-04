@@ -33,4 +33,4 @@ async def on_message(message):
 		    await message.channel.send(" :v: Hey There I Am Your Python Personal Assistant") 
 
 #Use Bot Token
-bot.run("ODI2MDU0MzkwMjYzNTc4NjM0.YGG5GQ.SSaEAiJ4v5MHHTMspwHgSqgBdQE")
+bot.run("use ur own batte")
